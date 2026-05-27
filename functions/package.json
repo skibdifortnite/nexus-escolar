@@ -1,0 +1,17 @@
+{
+  "name": "nexus-escolar-functions",
+  "description": "Firebase Cloud Functions para notificações push do Nexus Escolar",
+  "scripts": {
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^5.1.1"
+  },
+  "private": true
+}
